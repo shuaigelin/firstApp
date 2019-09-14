@@ -1,0 +1,118 @@
+.fencing {
+  display: flex;
+  flex-direction: column;
+}
+
+.fencing-image {
+  width: 750rpx;
+  height: 360rpx;
+}
+
+.active-head {
+  display: flex;
+  flex-direction: row;
+  margin-top: 72rpx;
+}
+
+.active-icon {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 32rpx;
+}
+
+.active-title {
+  font-size: 16px;
+  color: #333;
+  line-height: 16px;
+  font-weight: bold;
+  margin-left: 24rpx;
+}
+
+.active-content {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #7d7d7d;
+  text-align: justify;
+  line-height: 24px;
+  margin: 40rpx 32rpx 146rpx 32rpx;
+}
+
+.flag-img {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 32rpx;
+}
+
+.fencing-img {
+  width: 686rpx;
+  height: 240rpx;
+  margin: 40rpx 32rpx;
+}
+
+.fencing-content {
+  width: 686rpx;
+  height: 528rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 32rpx;
+}
+
+.fencing-lesson {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+}
+
+.fencing-rite{
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+}
+
+.fencing-method{
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+}
+
+.fencing-item {
+  font-size: 13px;
+  color: #151515;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.fencing-study {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+}
+
+.archery-img {
+  width: 686rpx;
+  height: 240rpx;
+  margin: 40rpx 32rpx;
+}
+
+.archery-lesson {
+  width: 686rpx;
+  height: 240rpx;
+     display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  margin: 0 32rpx 80rpx 32rpx;
+}
+
+.study {
+  font-size: 13px;
+  color: #000;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.study-method {
+  font-size: 13px;
+  color: #000;
+  line-height: 24px;
+}

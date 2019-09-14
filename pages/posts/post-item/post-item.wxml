@@ -1,0 +1,16 @@
+<template name="postItem">
+  <view class="post">
+    <image class="post-img" src="{{item.post_img}}"></image>
+    <view class="post-head">
+      <text class="title">{{item.post_title}}</text>
+      <view class="post-right">
+        <image class="post-icon" src="../../image/img_oclock.png"></image>
+        <text class="post-time">{{item.post_time}}</text>
+      </view>
+    </view>
+    <text class="post-main">{{item.post_main}}</text>
+  </view>
+</template>
+
+
+

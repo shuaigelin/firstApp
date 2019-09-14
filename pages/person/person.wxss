@@ -1,0 +1,134 @@
+/* pages/person/person.wxss */
+
+.person-main {
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.person-head {
+  width: 750rpx;
+  height: 280rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 72rpx;
+}
+
+.person-img {
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: 52rpx;
+}
+
+.person-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-me {
+  font-size: 16px;
+  color: #000;
+  margin-top: 74rpx;
+  margin-left: 40rpx;
+  font-weight: bold;
+}
+
+.person-name {
+  font-size: 13px;
+  color: #666;
+  line-height: 20px;
+  margin-top: 32rpx;
+  margin-left: 40rpx;
+}
+
+.arrow-right{
+  width: 8rpx;
+  height: 16rpx;
+  margin-top:114rpx;
+  margin-left:120rpx;
+}
+
+.person-content {
+  width: 750rpx;
+  background-color: #f0f0f0;
+  height: 828rpx;
+}
+
+.reserve {
+  width: 694rpx;
+  height: 240rpx;
+  background-image: linear-gradient(45deg, #ff5f1f 0%, #ff791f 100%);
+  box-shadow: 0 8px 16px -4px rgba(70, 21, 21, 0.20);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 28rpx;
+  margin-top: 68rpx;
+}
+
+.reservetext {
+  display: flex;
+  flex-direction: column;
+}
+
+.myreserve {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 72rpx;
+  margin-top: 54rpx;
+}
+
+.number {
+  font-family: PingFangSC-Medium;
+  font-size: 36px;
+  color: #fff;
+  margin-left: 114rpx;
+  margin-top: 10rpx;
+}
+
+.reserve-img {
+  width: 240rpx;
+  height: 240rpx;
+  margin-right: 20rpx;
+}
+
+.coupon {
+  width: 694rpx;
+  height: 240rpx;
+  background-image: linear-gradient(45deg, #ff5f1f 0%, #ff791f 100%);
+  background: #fff;
+  box-shadow: 0 8px 16px -4px rgba(70, 21, 21, 0.10);
+  justify-content: space-between;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 28rpx;
+  margin-top: 68rpx;
+}
+
+.coupontext {
+  display: flex;
+  flex-direction: column;
+}
+
+.mycoupon {
+  font-size: 16px;
+  margin-left: 72rpx;
+  margin-top: 54rpx;
+  color: #7d7d7d;
+}
+
+.numbertext {
+  font-family: PingFangSC-Medium;
+  font-size: 36px;
+  margin-left: 114rpx;
+  margin-top: 10rpx;
+  font-weight: bold;
+}
+
+.coupon-img {
+  width: 240rpx;
+  height: 240rpx;
+  margin-right: 20rpx;
+}

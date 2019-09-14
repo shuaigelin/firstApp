@@ -1,0 +1,17 @@
+<template name="welcomeItem">
+  <view class="main">
+    <view class="post">
+      <image class="post-image " src="{{item.welcome_img}}" />
+      <view class="post-container ">
+        <view class="content ">
+          <text class="post-name ">{{item.welcome_name}}</text>
+          <text class="post-address ">{{item.welcome_address}}</text>
+        </view>
+        <view class="post-bt ">
+          <image class="post-bt-image " src="../../image/logo.png " />
+          <text class="post-text">预约</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

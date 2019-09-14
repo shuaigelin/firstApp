@@ -1,0 +1,121 @@
+<swiper indicator-dots="true" autoplay="true" interval="2000">
+  <swiper-item>
+    <image src="../../../image/img_bwl.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../../image/img_bxg.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../../image/img_hgg.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../../image/img_jidao.png"></image>
+  </swiper-item>
+</swiper>
+<view class="content">
+  <text class="welcome-list-title">{{welcome_key.welcome_list_title}}</text>
+  <view class="welcome-list">
+    <text class="welcome-list-content">{{welcome_key.welcome_list_content}}</text>
+    <image class="content-img" src="../../../image/arrow.png"></image>
+  </view>
+  <view class="welcome-address">
+    <image class="img-address" src="../../../image/welcome-address.png"></image>
+    <text class="address">科技园 龙珠四路金谷创业园F栋, 1.6 km</text>
+    <image class="arrow-img" src="../../../image/arrow.png"></image>
+  </view>
+</view>
+<view class="line"></view>
+<view class="date-list">
+  <block wx:for="{{welcomeListkey}}" wx:for-item="item" wx:key="Dateid">
+    <view class="date">
+      <text class="date-day">{{item.date_day}}</text>
+      <text class="date-number">{{item.date_number}}</text>
+      <view class="date-img"></view>
+    </view>
+  </block>
+</view>
+
+
+
+<!-- <view class="time-morning" wx:for="{{lists}}" wx:key="lists">
+      <view class="{{index==idx?'_time':'time'}}" bindtap='goIndex' data-index="{{index}}">{{item.num}}</view>
+  </view>
+  <view class="time-afternoon" wx:for="{{list}}" wx:key="list">
+    <view class="{{index==idx?'_time':'time'}}" bindtap='goIndex' data-index="{{index}}">{{item.num}}</view>
+  </view> -->
+
+<view class="time-morning">
+  <text class="time">08:00-09:00</text>
+  <text class="time">09:00-10:00</text>
+  <text class="time">10:00-11:00</text>
+  <text class="time">11:00-12:00</text>
+</view>
+<view class="time-afternoon">
+  <text class="time">14:00-15:00</text>
+  <text class="time">15:00-16:00</text>
+  <text class="time">16:00-17:00</text>
+  <text class="time">17:00-18:00</text>
+</view>
+
+
+<text class="needknown">预约须知</text>
+<view class="needknowncontainer">
+  <view class="content">
+    <text>有效期</text>
+    <text>2018-05-10至2018-11-10</text>
+  </view>
+  <view class="content">
+    <text>适用人数</text>
+    <text>每张团购券最多1人使用</text>
+  </view>
+  <view class="content">
+    <text>规则提醒</text>
+    <text>不再与其他优惠同享</text>
+  </view>
+  <view class="content">
+    <text>温馨提示</text>
+    <text>如需团购券发票，请您在消费时向商户咨询</text>
+  </view>
+</view>
+
+<view class="coupon">
+  <text class="coupontcontent">优惠券</text>
+  <text class="selectcoupon">选择优惠券</text>
+  <image class="arrowright" src="../../../image/arrow.png"></image>
+</view>
+
+<view class="cardcontent">
+  <image class="card-img" src="../../../image/card-img.png"></image>
+  <view class="cardtext">
+    <text class="menoy">200元</text>
+    <text class="product">全部产品适用</text>
+    <text class="cardtime">有效期至：2018-09-10</text>
+  </view>
+</view>
+
+<view class="list">
+  <view class="list-content">
+    <text class="list-text">订单详情</text>
+    <view class="linesecond"></view>
+    <view class="list-time">
+      <text class="appointment">预约时间</text>
+      <text class="appointment-time">2018-09-10  18:00-19:00</text>
+    </view>
+    <view class="buy">
+      <text class="buy-text">原价</text>
+      <text class="buy-menoy">300元</text>
+    </view>
+    <view class="list-coupon">
+      <text class="list-coupon-card">优惠券</text>
+      <text class="coupon-menoy">-200元</text>
+    </view>
+    <view class="linethird"></view>
+    <view class="pay">
+      <text class="pay-total">合计:</text>
+      <text class="paymenoy">100元</text>
+      <view class="pay-container">
+        <text class="payment">微信支付</text>
+      </view>
+    </view>
+  </view>
+</view>

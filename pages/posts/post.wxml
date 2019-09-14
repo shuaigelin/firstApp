@@ -1,0 +1,7 @@
+<!--pages/posts/post.wxml-->
+<import src="post-item/post-item.wxml" />
+<block wx:for="{{post_key}}" wx:for-item="item" wx:key="id">
+  <view catchtap="onPostTap" data-id="{{item.id}}">
+    <template is="postItem" data="{{item}}" />
+  </view>
+</block> 

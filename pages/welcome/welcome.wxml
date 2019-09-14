@@ -1,0 +1,28 @@
+<import src="welcome-item/welcome-item.wxml" />
+<swiper indicator-dots="true" autoplay="true" interval="2000">
+  <swiper-item>
+    <image src="../../image/img_bwl.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../image/img_bxg.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../image/img_hgg.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../image/img_jidao.png"></image>
+  </swiper-item>
+</swiper>
+<view class="select">
+  <view class="selectBar ">
+    <text class="city ">深圳市全市</text>
+    <image class="arrow " src="../../image/arrowbar.png " />
+    <text class="subject ">全部主题</text>
+    <image class="arrow " src="../../image/arrowbar.png " />
+  </view>
+</view>
+<block wx:for="{{welcome_key}}" wx:for-item="item" wx:key="id">
+  <vlew catchtap="onWelcomeTap" data-id="{{item.id}}">
+    <template is="welcomeItem" data="{{item}}" /> 
+  </vlew>
+</block>

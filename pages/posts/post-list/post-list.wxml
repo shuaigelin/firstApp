@@ -1,0 +1,39 @@
+<view class="fencing">
+  <image class="fencing-image" src="{{postsData.fencing_image}}">
+  </image>
+  <view class="active-head">
+    <image class="active-icon" src="../../../image/active-img.png"></image>
+    <text class="active-title">活动概要</text>
+  </view>
+  <text class="active-content">{{postsData.active_content}}</text>
+  <view>
+    <image class="active-icon" src="../../../image/flag-img.png"></image>
+    <text class="active-title">活动介绍</text>
+  </view>
+  <image class="fencing-img" src="{{postsData.fencing_img}}"></image>
+
+  <view class="fencing-content">
+    <text class="fencing-lesson">{{postsData.fencing_lesson}}</text>
+    <text class="fencing-item">{{postsData.fencing_item}}</text>
+    <text class="fencing-rite">{{postsData.fencing_rite}}</text>
+    <text class="fencing-method">{{postsData.fencing_method}}</text>
+    <text class="fencing-study">{{postsData.fencing_study}}</text>
+  </view>
+  <view>
+    <image class="archery-img" src="{{postsData.archery_img}}"></image>
+    <view class="archery-lesson">
+      <view class="archery-content">
+        <text class="study">教学方式：</text>
+        <text class="study-method">专业指导、一对一教学；</text>
+      </view>
+      <view class="archery-content">
+        <text class="study">道场地址：</text>
+        <text class="study-method">深圳市南山区龙珠四路金谷创业园F栋跨界空间三楼305道场（维也纳酒店对面、地铁是龙井B出口）</text>
+      </view>
+      <view class="archery-content">
+        <text class="study">上课时间：</text>
+        <text class="study-method">每周二、四、六晚19:00-22:00</text>
+      </view>
+    </view>
+  </view>
+</view>

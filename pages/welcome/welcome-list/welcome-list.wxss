@@ -1,0 +1,420 @@
+swiper {
+  width: 750rpx;
+  height: 360rpx;
+}
+
+swiper image {
+  width: 750rpx;
+  height: 360rpx;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-list-title {
+  font-size: 16px;
+  color: #333;
+  line-height: 16px;
+  font-weight: bold;
+  margin-left: 32rpx;
+  margin-top: 72rpx;
+}
+
+.welcome-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 32rpx;
+  margin-top: 40rpx;
+}
+
+.welcome-list-content {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+  width: 662rpx;
+  height: 96rpx;
+}
+
+.content-img {
+  width: 8rpx;
+  height: 16rpx;
+  margin-top: 20rpx;
+  margin-left: 24rpx;
+}
+
+.arrow-img {
+  width: 8rpx;
+  height: 16rpx;
+  margin-top: 12rpx;
+  margin-left: 216rpx;
+}
+
+.welcome-address {
+  display: flex;
+  flex-direction: row;
+  margin-left: 32rpx;
+  margin-top: 32rpx;
+}
+
+.img-address {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+.address {
+  font-size: 12px;
+  color: #bbb;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-left: 16rpx;
+}
+
+.line {
+  width: 686rpx;
+  height: 2rpx;
+  margin-left: 32rpx;
+  background-color: #eee;
+  margin-top: 72rpx;
+}
+
+.date-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 68rpx;
+  justify-content: space-between;
+}
+
+/* ._date-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: 68rpx;
+  justify-content: space-between;
+  color: #ff201f; 
+} */
+
+.date {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64rpx;
+}
+
+.date-day {
+  width: 40rpx;
+  height: 28rpx;
+  font-size: 10px;
+  text-align: center;
+}
+
+.date-number {
+  width: 40rpx;
+  height: 44rpx;
+  margin-top: 16rpx;
+  font-weight: bold;
+}
+
+.date-img {
+  width: 44rpx;
+  height: 6rpx;
+  border-radius: 1.5px;
+  margin-top: 14rpx;
+  background: black;
+}
+
+.time-morning {
+  width: 712rpx;
+  height: 72rpx;
+  margin-left: 20rpx;
+  margin-top: 69rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-afternoon {
+  width: 712rpx;
+  height: 72rpx;
+  margin-left: 20rpx;
+  margin-top: 8rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-size: 12px;
+  color: #666;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-left: 20rpx;
+  margin-top: 18rpx;
+  margin-right: 20rpx;
+}
+
+._time {
+  font-size: 12px;
+  color: #FF201F;
+  height: 34rpx;
+  line-height: 34rpx;
+  margin-left: 20rpx;
+  margin-top: 18rpx;
+  margin-right: 20rpx;
+}
+
+.needknown {
+  width: 192rpx;
+  height: 32rpx;
+  font-size: 16px;
+  color: #333;
+  line-height: 16px;
+  margin-left: 32rpx;
+  margin-top: 146rpx;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.needknowncontainer {
+  width: 686rpx;
+  height: 528rpx;
+  margin-left: 32rpx;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+}
+
+.coupon {
+  display: flex;
+  flex-direction: row;
+  width: 670rpx;
+  height: 44rpx;
+  margin: 146rpx 32rpx 40rpx 48rpx;
+}
+
+.coupontcontent {
+  font-size: 16px;
+  color: #333;
+  width: 96rpx;
+  line-height: 44rpx;
+}
+
+.selectcoupon {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 24px;
+  margin-left: 412rpx;
+}
+
+.arrowright {
+  width: 8rpx;
+  height: 16rpx;
+  margin-left: 24rpx;
+  margin-top: 16rpx;
+}
+
+.cardcontent {
+  width: 694rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  margin-left: 14rpx;
+  margin-bottom: 72rpx;
+}
+
+.card-img {
+  width: 206rpx;
+  height: 200rpx;
+}
+
+.cardtext {
+  width: 488rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.menoy {
+  font-size: 24px;
+  color: #ff201f;
+  line-height: 24px;
+  margin-left: 54rpx;
+  margin-top: 28rpx;
+  font-weight: bold;
+}
+
+.product {
+  font-size: 13px;
+  color: #ff201f;
+  line-height: 13px;
+  margin-left: 54rpx;
+  margin-top: 28rpx;
+}
+
+.cardtime {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 13px;
+  margin-left: 54rpx;
+  margin-top: 16rpx;
+}
+
+.list {
+  width: 750rpx;
+  height: 774rpx;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-content {
+  width: 686rpx;
+  height: 622rpx;
+  margin-left: 32rpx;
+  margin-top: 72rpx;
+  background: #fff;
+  box-shadow: 0 8px 16px -4px rgba(70, 21, 21, 0.20);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-text {
+  font-size: 16px;
+  color: #333;
+  width: 128rpx;
+  height: 44rpx;
+  margin-left: 48rpx;
+  margin-top: 34rpx;
+  margin-bottom: 32rpx;
+}
+
+.linesecond {
+  width: 686rpx;
+  height: 2rpx;
+  margin-left: 32rpx;
+  background-color: #ece8e8;
+}
+
+.list-time {
+  width: 590rpx;
+  height: 40rpx;
+  margin-left: 48rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 60rpx;
+}
+
+.appointment {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 20px;
+}
+
+.appointment-time {
+  font-size: 13px;
+  color: #000;
+  text-align: right;
+  line-height: 20px;
+}
+
+.buy {
+  width: 590rpx;
+  height: 40rpx;
+  margin-left: 48rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+margin-top: 48rpx;
+}
+
+.buy-text {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 20px;
+}
+
+.buy-menoy {
+  font-size: 13px;
+  color: #000;
+  text-align: right;
+  line-height: 20px;
+}
+
+.list-coupon {
+  width: 590rpx;
+  height: 40rpx;
+  margin-left: 48rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 48rpx;
+  margin-bottom: 64rpx;
+}
+
+.list-coupon-card {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 20px;
+}
+
+.coupon-menoy {
+  font-size: 13px;
+  color: #000;
+  text-align: right;
+  line-height: 20px;
+}
+
+.linethird{
+  width: 686rpx;
+  height: 2rpx;
+  margin-left: 32rpx;
+  background-color: #ece8e8;
+}
+
+.pay {
+  width: 590rpx;
+  height: 88rpx;
+  margin-left: 48rpx;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40rpx;
+}
+
+.pay-total {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 20px;
+  margin-top: 26rpx;
+}
+
+.paymenoy {
+  font-size: 18px;
+  color: #ff201f;
+  line-height: 88rpx;
+  margin-left: 28rpx;
+}
+
+.pay-container {
+  width: 280rpx;
+  height: 88rpx;
+  background-image: linear-gradient(45deg, #ff201f 0%, #ff541f 100%);
+  border-radius: 24px;
+  display: flex;
+  margin-left: 116rpx;
+}
+
+.payment {
+  font-size: 16px;
+  color: #fff;
+  margin-left: 76rpx;
+  margin-top: 24rpx;
+}

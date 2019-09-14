@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/posts/post",
+    "pages/posts/post-list/post-list",
+    "pages/welcome/welcome",
+    "pages/welcome/welcome-list/welcome-list",
+    "pages/person/person",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "场馆预约",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "场馆预约",
+        "iconPath":"image/img_timeover.png",
+        "selectedIconPath":"image/img_time.again.png"
+      },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "活动列表",
+        "selectedIconPath": "image/img-active.png",
+        "iconPath": "image/img_activeover.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "selectedIconPath": "image/img_personagain.png",
+        "iconPath": "image/img_personover.png"
+      }
+    ]
+  }
+}

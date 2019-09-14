@@ -1,0 +1,28 @@
+<!--pages/person/person.wxml-->
+<view class="person-main">
+  <view class="person-head">
+    <image class="person-img" src="../../image/author-img.png"></image>
+    <view class="person-text">
+      <text class="person-me">吴彦祖</text>
+      <text class="person-name">快来留下你的个性签名吧</text>
+    </view>
+    <image class="arrow-right" src="../../image/arrow.png"></image>
+  </view>
+  <view class="person-content">
+    <view class="reserve">
+      <view class="reservetext">
+        <text class="myreserve">我的预订</text>
+        <text class="number">3</text>
+      </view>
+      <image class="reserve-img" src="../../image/img_servirepng.png"></image>
+    </view>
+     
+    <view class="coupon">
+      <view class="coupontext">
+        <text class="mycoupon">优惠券</text>
+        <text class="numbertext">6</text>
+      </view>
+      <!-- <image class="coupon-img" src="img-booking.png"></image> -->
+    </view>
+  </view>
+</view>
