@@ -21,10 +21,9 @@ Page({
     //   { 'num': '08:00-09:00' },
       
     // ],
-    // idx: 0
+    // idx: 0 
   }, 
-
-
+ 
   /**
    * 生命周期函数--监听页面加载
    */
@@ -36,7 +35,7 @@ Page({
       welcome_key: welcomeDatas
     })
   },
-
+ 
   // goIndex(e) {
   //   let index = e.currentTarget.dataset.index;
   //   console.log('每个index',index)
@@ -44,7 +43,7 @@ Page({
   //     idx: index
   //   })
   // },
-
+  
 
   /**
    * 生命周期函数--监听页面初次渲染完成

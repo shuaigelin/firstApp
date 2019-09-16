@@ -23,6 +23,6 @@
 </view>
 <block wx:for="{{welcome_key}}" wx:for-item="item" wx:key="id">
   <vlew catchtap="onWelcomeTap" data-id="{{item.id}}">
-    <template is="welcomeItem" data="{{item}}" /> 
+    <template is="welcomeItem" data="{{item}}" />  
   </vlew>
 </block>

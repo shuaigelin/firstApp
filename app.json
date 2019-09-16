@@ -16,6 +16,7 @@
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
+    
     "list": [
       {
         "pagePath": "pages/welcome/welcome",
