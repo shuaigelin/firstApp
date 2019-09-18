@@ -1,0 +1,15 @@
+<view class="author-message">
+  <image class="author" src="../../../image/author-img.png"></image>
+  <text class="author-name">吴彦祖</text>
+</view>
+<input class="change-name" name="userName" bindTap="changename" placeholder="编辑个性签名" focus="{{focus}}"></input>
+<view class="border-line"></view>
+<input class="change-born" placeholder="编辑生日" focus="{{focus}}"></input>
+<view class="border-line"></view>
+<input class="change-height" placeholder="编辑身高" focus="{{focus}}"></input>
+<view class="border-line"></view>
+<input class="change-weight" placeholder="编辑体重" focus="{{focus}}"></input>
+<view class="border-line"></view>
+<view class="btn" bindTap="saveTap">
+  <text class="btn-text">保存</text>
+</view>

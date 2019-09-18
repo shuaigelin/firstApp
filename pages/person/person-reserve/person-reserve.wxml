@@ -1,0 +1,61 @@
+<view class="reserve">
+  <view class="reservetext">
+    <text class="myreserve">
+        <text class="myreserve-text">全部</text>
+    <text class="myreserve-text">待付款</text>
+    <text class="myreserve-text">待开始</text>
+    <text class="myreserve-text">使用中</text>
+    <text class="myreserve-text">已完成</text>
+    </text>
+    <text class="reserve-number">
+        <text class="myreserve-number-header">6</text>
+    <text class="myreserve-number">1</text>
+    <text class="myreserve-number">3</text>
+    <text class="myreserve-number">0</text>
+    <text class="myreserve-number">2</text>
+    </text>
+  </view>
+  <!-- <image class="reserve-img" src="../../../image/img_servirepng.png"></image> -->
+</view>
+<view class="knife-exercise">
+  <image class="knift-img" src="../../../image/fencing-img.png"></image>
+  <view class="knift-content">
+    <text class="knift-title">拔刀道</text>
+    <text class="knift-time">2018-09-10  18:00-19:00</text>
+    <text class="knift-address">科技园 龙珠四路金谷创业园F栋</text>
+  </view>
+  <text class="pay">待付款</text>
+</view>
+<view class="black-line"></view>
+
+<view class="knife-exercise">
+  <image class="knift-img" src="../../../image/img_bwl@2x.png"></image>
+  <view class="knift-content">
+    <text class="knift-title">白尾鹿舞蹈工作室</text>
+    <text class="knift-time">2018-09-10  18:00-19:00</text>
+    <text class="knift-address">科技园 龙珠四路金谷创业园F栋</text>
+  </view>
+  <text class="Completed">已完成</text>
+</view>
+<view class="black-line"></view>
+
+<view class="knife-exercise">
+  <image class="knift-img" src="../../../image/climb-image.png"></image>
+  <view class="knift-content">
+    <text class="knift-title">博昇攀岩</text>
+    <text class="knift-time">2018-09-10  18:00-19:00</text>
+    <text class="knift-address">科技园 龙珠四路金谷创业园F栋</text>
+  </view>
+  <text class="begin">待开始</text>
+</view>
+<view class=" black-line "></view>
+
+<view class="subject ">
+  <image class="knift-img " src="../../../image/img_mgg@2x.png "></image>
+  <view class="knift-content ">
+    <text class="knift-title ">美国主题馆</text>
+    <text class="knift-time ">2018-09-10  18:00-19:00</text>
+    <text class="knift-address ">科技园 龙珠四路金谷创业园F栋</text>
+  </view>
+  <text class="used ">使用中</text>
+</view>

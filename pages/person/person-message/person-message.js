@@ -1,11 +1,11 @@
-// pages/person/person.js
+// pages/person-message/person-message.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    username:'',
   },
 
   /**
@@ -13,24 +13,27 @@ Page({
    */
   onLoad: function (options) {
     wx.setNavigationBarTitle({
-      title: "个人中心",
+      title: "填写个人信息",
     });
   },
-  onpersonTap:function(){
-    wx: wx.navigateTo({
-      url: "person-message/person-message",
+  bindKeyInput:function(evnet){
+    console.log(123)
+    // backgroundcolor:black;
+    // this.setData({
+    //   backgroundcolor:backgroundcolor,
+    // })
+  },
+  changename:function(event){
+    this.setData({
+      userName:event.detail.value
     })
   },
-  OnreserveTap:function(){
-    wx:wx.navigateTo({
-      url:"person-reserve/person-reserve",
-    })
+  saveTap: function (event) {
+      console.log(123)
   },
-  OncoupontTap: function () {
-    wx: wx.navigateTo({
-      url: "person-coupon/person-coupon",
-    })
-  },
+
+
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -1,10 +1,13 @@
 {
   "pages": [
-    "pages/posts/post",
-    "pages/posts/post-list/post-list",
     "pages/welcome/welcome",
-    "pages/welcome/welcome-list/welcome-list",
+    "pages/person/person-coupon/person-coupon",
     "pages/person/person",
+    "pages/person/person-reserve/person-reserve",
+    "pages/posts/post",
+    "pages/person/person-message/person-message",
+    "pages/posts/post-list/post-list",
+    "pages/welcome/welcome-list/welcome-list",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -16,13 +19,12 @@
   },
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    
     "list": [
       {
         "pagePath": "pages/welcome/welcome",
         "text": "场馆预约",
-        "iconPath":"image/img_timeover.png",
-        "selectedIconPath":"image/img_time.again.png"
+        "iconPath": "image/img_timeover.png",
+        "selectedIconPath": "image/img_time.again.png"
       },
       {
         "pagePath": "pages/posts/post",

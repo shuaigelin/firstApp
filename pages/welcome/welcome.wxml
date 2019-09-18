@@ -13,16 +13,54 @@
     <image src="../../image/img_jidao.png"></image>
   </swiper-item>
 </swiper>
-<view class="select">
-  <view class="selectBar ">
-    <text class="city ">深圳市全市</text>
-    <image class="arrow " src="../../image/arrowbar.png " />
-    <text class="subject ">全部主题</text>
-    <image class="arrow " src="../../image/arrowbar.png " />
+
+<view class='menu-po'>
+  <view class='menu'>
+    <view class='menu-list'>
+      <view class='menu-nav' wx:for="{{ msgList }}" wx:for-index="idx" wx:key="key" data-hi="{{ idx }}" bindtap="menuClick">
+        <text class='menu-text'>{{ item.name }}</text>
+        <image class="arrowbottom" src="../../image/arrowbar.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class='menu-if'>
+    <view class="meun-txt" hidden='{{ meunShow[0].isShows ? true : false }}'>
+      <view class='menu-text-list'>
+        <view class='menu-text-list-left over-auto'>
+          <text wx:for="{{ areaLise }}" wx:key="name" class='meun-city-txt' bindtap="rowClick" data-hi="{{ index }}">{{ item.name }}</text>
+        </view>
+
+        <view class='menu-text-list-rig over-auto' hidden='{{ rigShow ? true : fasle }}'>
+          <view class='menu-city' hidden='{{ rowShow[0].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_SZ.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          <view class='menu-city' hidden='{{ rowShow[1].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_GZ.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          <view class='menu-city' hidden='{{ rowShow[2].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_DG.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          <view class='menu-city' hidden='{{ rowShow[3].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_ZH.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          <view class='menu-city' hidden='{{ rowShow[4].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_HZ.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          <view class='menu-city' hidden='{{ rowShow[5].isShows ? true : fasle }}'>
+            <text wx:for="{{ rowLise.row_FS.name }}" wx:key="item" class='meun-city-txt'>{{ item }}</text>
+          </view>
+          
+        </view>
+      </view>
+    </view>
+    <view class="meun-txt over-auto" hidden='{{ meunShow[1].isShows ? true : false }}'>
+      <text wx:for="{{ price }}" wx:key="id" class='meun-city-txt meun-city-txt-price'>{{ item.name }}</text>
+    </view>
   </view>
 </view>
+
 <block wx:for="{{welcome_key}}" wx:for-item="item" wx:key="id">
   <vlew catchtap="onWelcomeTap" data-id="{{item.id}}">
-    <template is="welcomeItem" data="{{item}}" />  
+    <template is="welcomeItem" data="{{item}}" />
   </vlew>
 </block>

@@ -1,4 +1,4 @@
-// pages/person/person.js
+// pages/person/person-coupon/person-coupon.js
 Page({
 
   /**
@@ -12,25 +12,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: "个人中心",
-    });
+
   },
-  onpersonTap:function(){
-    wx: wx.navigateTo({
-      url: "person-message/person-message",
-    })
-  },
-  OnreserveTap:function(){
-    wx:wx.navigateTo({
-      url:"person-reserve/person-reserve",
-    })
-  },
-  OncoupontTap: function () {
-    wx: wx.navigateTo({
-      url: "person-coupon/person-coupon",
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

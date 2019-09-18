@@ -1,0 +1,58 @@
+.author-message {
+  display: flex;
+  flex-direction: column;
+}
+
+.author {
+  width: 160rpx;
+  height: 160rpx;
+  margin-top: 48rpx;
+  margin-left: 296rpx;
+}
+
+.author-name {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 36rpx;
+  margin-left: 328rpx;
+}
+
+.change-name {
+  /* background-color:#EEEEEE; */
+  margin: 110rpx 54rpx 36rpx 64rpx;
+}
+
+.border-line {
+  width: 686rpx;
+  height: 0.2rpx;
+  background-color: #eee;
+  margin: 0 32rpx;
+}
+
+.change-born {
+  margin: 46rpx 64rpx;
+}
+
+.change-height {
+  margin: 46rpx 64rpx;
+}
+
+.change-weight {
+  margin: 46rpx 64rpx;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #ff201f 0%, #ff541f 100%);
+  border-radius: 24px;
+  width: 622rpx;
+  height: 88rpx;
+  margin: 169.8rpx 64rpx 0 64rpx;
+}
+
+.btn-text {
+  font-size: 16px;
+  color: #fff;
+  margin-left:280rpx;
+  line-height: 88rpx;
+}

@@ -25,39 +25,25 @@
   </view>
 </view>
 <view class="line"></view>
-<view class="date-list">
+<!-- <view class="date-list">
   <block wx:for="{{welcomeListkey}}" wx:for-item="item" wx:key="Dateid">
-    <view class="date">
+    <view class="date{{item == dataList?'Bar':''}}" bindTap="dateTap" data-id="{{item}}">
       <text class="date-day">{{item.date_day}}</text>
       <text class="date-number">{{item.date_number}}</text>
       <view class="date-img"></view>
     </view>
   </block>
+</view> -->
+<view class="date">
+  <view class="dateTime{{dateArr.datetoday == dateList?'Bar':''}}" wx:for="{{dateday}}" wx:key="datetoday" wx:for-item="dateArr" bindTap='dateTimeTap' data-dateid="{{dateArr.datetoday}}">{{dateArr.datetoday}}</view>
 </view>
-
-
-
-<!-- <view class="time-morning" wx:for="{{lists}}" wx:key="lists">
-      <view class="{{index==idx?'_time':'time'}}" bindtap='goIndex' data-index="{{index}}">{{item.num}}</view>
-  </view>
-  <view class="time-afternoon" wx:for="{{list}}" wx:key="list">
-    <view class="{{index==idx?'_time':'time'}}" bindtap='goIndex' data-index="{{index}}">{{item.num}}</view>
-  </view> -->
 
 <view class="time-morning">
-  <text class="time">08:00-09:00</text>
-  <text class="time">09:00-10:00</text>
-  <text class="time">10:00-11:00</text>
-  <text class="time">11:00-12:00</text>
+  <view class="time{{item == timeitem?'Bar':''}}" wx:for="{{morninglists}}" wx:key="*this" bindtap='goIndex' data-classify="{{item}}">{{item}}</view>
 </view>
 <view class="time-afternoon">
-  <text class="time">14:00-15:00</text>
-  <text class="time">15:00-16:00</text>
-  <text class="time">16:00-17:00</text>
-  <text class="time">17:00-18:00</text>
+  <view class="time{{item == timeitem?'Bar':''}}" wx:for="{{afterlists}}" wx:key="*this" bindtap='goIndex' data-classify="{{item}}">{{item}}</view>
 </view>
-
-
 <text class="needknown">预约须知</text>
 <view class="needknowncontainer">
   <view class="content">

@@ -1,0 +1,36 @@
+<view class="coupon">
+  <input class="exchang-number" placeholder="请输入兑换码" focus="{{focus}}">
+  <view class="btn">
+    <text class="btn-text">兑换</text>
+  </view>
+  </input>
+  <view class="card">
+    <image class="card-img" src="../../../image/card-img.png"></image>
+    <view class="card-content">
+      <text class="menoy">200远</text>
+      <text class="produst">全部产品适用</text>
+      <text class="card-time">有效期至：2018-09-10</text>
+    </view>
+    <image class="right-arrow" src="../../../image/arrow.png"></image>
+  </view>
+
+    <view class="card">
+    <image class="card-img" src="../../../image/present-img.png"></image>
+    <view class="card-content">
+      <text class="menoy">50远</text>
+      <text class="produst">轰趴主题使用</text>
+      <text class="card-time">有效期至：2018-09-10</text>
+    </view>
+    <image class="right-arrow" src="../../../image/arrow.png"></image>
+  </view>
+
+    <view class="card">
+    <image class="card-img" src="../../../image/preferential-img.png"></image>
+    <view class="card-content">
+      <text class="menoy">100远</text>
+      <text class="produst">已过期</text>
+      <text class="card-time">有效期至：2018-09-10</text>
+    </view>
+    <image class="right-arrow" src="../../../image/arrow.png"></image>
+  </view>
+</view>

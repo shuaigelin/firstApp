@@ -1,0 +1,144 @@
+.reserve {
+  width: 694rpx;
+  height: 240rpx;
+  background-image: linear-gradient(45deg, #ff5f1f 0%, #ff791f 100%);
+  box-shadow: 0 8px 16px -4px rgba(70, 21, 21, 0.20);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 28rpx;
+  margin-top: 68rpx;
+}
+
+.reservetext {
+  display: flex;
+  flex-direction: column;
+}
+
+.myreserve {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40rpx;
+  margin-top: 52rpx;
+  margin-bottom: 40rpx;
+}
+
+.reserve-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: PingFangSC-Medium;
+  font-size: 12px;
+  color: #fff;
+  margin-left: 60rpx;
+}
+
+/* 
+.reserve-img {
+  width: 240rpx;
+  height: 240rpx;
+  margin-right: 20rpx;
+} */
+
+.myreserve-text {
+  margin-left: 32rpx;
+  font-size: 16px;
+  color: #fff;
+}
+
+.myreserve-number-header {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 20rpx;
+}
+
+.myreserve-number {
+  font-size: 24px;
+  color: #fff;
+  margin-left: 100rpx;
+}
+
+.knife-exercise {
+  display: flex;
+  flex-direction: row;
+  margin-top: 72rpx;
+  margin-left: 32rpx;
+}
+
+.knift-img {
+  width: 144rpx;
+  height: 144rpx;
+  border-radius: 15rpx;
+}
+
+.knift-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28rpx;
+}
+
+.knift-title {
+  font-size: 16px;
+  color: #333;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+.knift-time {
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 13px;
+  margin-top: 28rpx;
+}
+
+.knift-address {
+  font-family: PingFangSC-Regular;
+  font-size: 13px;
+  color: #7d7d7d;
+  line-height: 13px;
+  margin-top: 16rpx;
+}
+
+.pay {
+  font-size: 13px;
+  color: #ff791f;
+  line-height: 20px;
+  margin-left: 56rpx;
+}
+
+.black-line{
+  width: 686rpx;
+  height: 2rpx;
+  background-color:#EEEEEE;
+  margin:46rpx 32rpx 38rpx 32rpx;
+}
+
+.subject{
+    display: flex;
+  flex-direction: row;
+  margin-top: 72rpx;
+  margin-left: 32rpx;
+  margin-bottom:18rpx;
+}
+
+.Completed{
+ font-size: 13px;
+  color: #2DCFAF;
+  line-height: 20px;
+  margin-left: 56rpx;
+}
+
+.begin{
+   font-size: 13px;
+  color: #ff791f;
+  line-height: 20px;
+  margin-left: 56rpx;
+}
+
+.used{
+     font-size: 13px;
+  color: #2DCFAF;
+  line-height: 20px;
+  margin-left: 56rpx;
+}
